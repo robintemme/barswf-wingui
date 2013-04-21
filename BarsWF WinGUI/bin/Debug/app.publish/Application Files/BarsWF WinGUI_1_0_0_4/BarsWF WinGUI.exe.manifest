@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BarsWF WinGUI.exe" version="1.0.0.4" publicKeyToken="63858cf4d48eb159" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="hash.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BarsWF WinGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BarsWF WinGUI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Zugangsebene für das Windows-Benutzerkonto ändern möchten, ersetzen Sie den 
+          requestedExecutionLevel-Knoten durch eines der folgenden Elemente.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Löschen Sie den requestedExecutionLevel-Knoten, wenn Sie 
+         zum Gewährleisten der Abwärtskompatibilität die Datei- und Registrierungsvirtualisierung verwenden möchten.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BarsWF WinGUI.exe" size="361984">
+      <assemblyIdentity name="BarsWF WinGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OojcwHxnmskc/gW7ypBMMqO4A3AfqxF8koP1RQWpi3o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BarsWF WinGUI.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="hash.ico" size="161862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/szlv5u7tLtmgueh9NGnZNRl2IHBHVQF+bnMHfeGQbI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Robin64\Robin Temme" issuerKeyHash="1cd3d9100ff9f754c089232e2dc2bc4151449585" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LvDz+r+/qKA2RTsirrVWl6fsVjtCukKyk2bfGBkgrhE=</DigestValue></Reference></SignedInfo><SignatureValue>Jg309VOFTIqj5cgXeGz2tjiP5wcLr6TFJoM2t/bcehSa0G0qbYJwp1eX2BAZEK6vo5VsZbg0JhjYj6lkSZZl9NJ6UAAC9PR3EBmb3k3Ju2KgePfMNGTZAFI4tgWM8EN+XLpm+reOKCXIxVQF6H4NUDABYd1Nzs2UgUh9sFmFAKM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>spupfRs7oqmofpgevIXgswlByhQWT2uTvPv0RMvfhQdmPN7Jfgp98N5X1W2wEwlWtO+aQHumR0yL9JN8qpaj+sCY57X4a5L2dduPlZypzZd9TuApW/lkIS6jI7XZur6v4XTtEU1Q4pb/C6AKuk5EJ4D3hlT0AUlxWBHsqXMEE7M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="11ae201918df6693b242ba423b56eca79756b5ae223b4536a0a8bfbffaf3f02e" Description="" Url=""><as:assemblyIdentity name="BarsWF WinGUI.exe" version="1.0.0.4" publicKeyToken="63858cf4d48eb159" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Robin64\Robin Temme</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>awxN89ZQ66mZDcTDJk5R+VkJusJ1syw5c/a4e+w7FBE=</DigestValue></Reference></SignedInfo><SignatureValue>O2UEP8aofPv9jJomytZwcZ9+sVvQ92IvrxBIYDoOKCn1reY3xe91EvR8qyqzGEjVQoVGRWT9EPOnj5v3Koub/s50SlOmIwPka8EcIDFruCZFnNWxFjOjNmS/qye+W9L+ijJAcu9Lb8/fbZphBNDHFVWrcI1ZnxabmM6eW6y/QOA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>spupfRs7oqmofpgevIXgswlByhQWT2uTvPv0RMvfhQdmPN7Jfgp98N5X1W2wEwlWtO+aQHumR0yL9JN8qpaj+sCY57X4a5L2dduPlZypzZd9TuApW/lkIS6jI7XZur6v4XTtEU1Q4pb/C6AKuk5EJ4D3hlT0AUlxWBHsqXMEE7M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQNTUiGMgCTahEXWKeB96s2DANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAUgBvAGIAaQBuADYANABcAFIAbwBiAGkAbgAgAFQAZQBtAG0AZTAeFw0xMzAxMTEwMzAxNDZaFw0xNDAxMTEwOTAxNDZaMDExLzAtBgNVBAMeJgBSAG8AYgBpAG4ANgA0AFwAUgBvAGIAaQBuACAAVABlAG0AbQBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCym6l9Gzuiqah+mB68heCzCUHKFBZPa5O8+/REy9+FB2Y83sl+Cn3w3lfVbbATCVa075pAe6ZHTIv0k3yqlqP6wJjntfhrkvZ124+VnKnNl31O4Clb+WQhLqMjtdm6vq/hdO0RTVDilv8LoAq6TkQngPeGVPQBSXFYEeypcwQTswIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIeohDF9W6h9avp5fA4mDTY01XAsv6oU8Yjrm4tbrmguAbwosqBOAOKgzebcUo6kaykGOVd+NdfiiESdAnYP4cBInGJdRHQ16CP0J9yFeIPIhPEiUh4f9mYAQsZIdDQdptIcI6eJbN/rZpgaFHIiqXH8pKXy3d1Xq+RZrKCDiXc0</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

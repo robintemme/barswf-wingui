@@ -1,0 +1,14 @@
+C:\Users\Robin Temme\Dropbox\Projekte\BarsWF WinGUI\BarsWF WinGUI\bin\Debug\BarsWF WinGUI.exe.config
+C:\Users\Robin Temme\Dropbox\Projekte\BarsWF WinGUI\BarsWF WinGUI\bin\Debug\BarsWF WinGUI.exe
+C:\Users\Robin Temme\Dropbox\Projekte\BarsWF WinGUI\BarsWF WinGUI\bin\Debug\BarsWF WinGUI.pdb
+C:\Users\Robin Temme\Dropbox\Projekte\BarsWF WinGUI\BarsWF WinGUI\bin\Debug\BarsWF WinGUI.xml
+C:\Users\Robin Temme\Dropbox\Projekte\BarsWF WinGUI\BarsWF WinGUI\obj\Debug\BarsWF_WinGUI.frmMain.resources
+C:\Users\Robin Temme\Dropbox\Projekte\BarsWF WinGUI\BarsWF WinGUI\obj\Debug\BarsWF_WinGUI.Resources.resources
+C:\Users\Robin Temme\Dropbox\Projekte\BarsWF WinGUI\BarsWF WinGUI\obj\Debug\BarsWF WinGUI.vbproj.GenerateResource.Cache
+C:\Users\Robin Temme\Dropbox\Projekte\BarsWF WinGUI\BarsWF WinGUI\obj\Debug\BarsWF WinGUI.exe
+C:\Users\Robin Temme\Dropbox\Projekte\BarsWF WinGUI\BarsWF WinGUI\obj\Debug\BarsWF WinGUI.xml
+C:\Users\Robin Temme\Dropbox\Projekte\BarsWF WinGUI\BarsWF WinGUI\obj\Debug\BarsWF WinGUI.pdb
+C:\Users\Robin Temme\Dropbox\Projekte\BarsWF WinGUI\BarsWF WinGUI\bin\Debug\BarsWF WinGUI.exe.manifest
+C:\Users\Robin Temme\Dropbox\Projekte\BarsWF WinGUI\BarsWF WinGUI\bin\Debug\BarsWF WinGUI.application
+C:\Users\Robin Temme\Dropbox\Projekte\BarsWF WinGUI\BarsWF WinGUI\obj\Debug\BarsWF WinGUI.exe.manifest
+C:\Users\Robin Temme\Dropbox\Projekte\BarsWF WinGUI\BarsWF WinGUI\obj\Debug\BarsWF WinGUI.application
